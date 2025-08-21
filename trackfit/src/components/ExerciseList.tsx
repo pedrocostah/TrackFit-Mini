@@ -9,7 +9,7 @@ interface WorkoutCardProps {
 export function ExerciseList(props: WorkoutCardProps) {
   return (
     <div className="card">
-      <h2 style={{ margin: '0 0 8px' }}>{props.title}</h2>
+      <h2 style={{ margin: '0 0 7px' }}>{props.title}</h2>
       <p>Duração: {props.durationMinutes} min</p>
       <p>Intensidade: {props.intensity}/5</p>
       <p>Data: {props.date}</p>
