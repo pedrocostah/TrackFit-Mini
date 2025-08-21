@@ -1,10 +1,5 @@
-# TrackFit — Aula 2 (Vite + React + TypeScript)
+# TrackFit MINI —  (Vite + React + TypeScript)
 
-## Como rodar
-```bash
-npm install
-npm run dev
-```
 
 Abra o endereço que o terminal mostrar (ex.: http://localhost:5173).
 
@@ -12,8 +7,9 @@ Abra o endereço que o terminal mostrar (ex.: http://localhost:5173).
 ```
 src/
 ├── components/
-│   ├── Header.tsx
-│   └── WorkoutCard.tsx
+│   ├── Welcome.tsx
+|   ├── ExerciseList.tsx
+│   └── MotivationMessage.tsx
 ├── assets/
 ├── pages/
 ├── types/
@@ -23,6 +19,6 @@ src/
 ```
 
 ## O que você consegue testar
-- Header com boas-vindas.
-- Dois `WorkoutCard` renderizados.
+- Welcome com boas-vindas.
+- Três `ExerciseList` renderizados.
 - Estilo básico com borda e padding.
