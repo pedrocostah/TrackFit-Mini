@@ -10,3 +10,16 @@ export function MotivationMessage() {
     </header>
   )
 }
+interface MotivationMessageProps {
+ message: string;
+ author: string;
+}
+export function ExerciseList(props: WorkoutCardProps) {
+  return (
+    <div className="card">
+      <h2 style={{ margin: '0 0 8px' }}>{props.message}</h2>
+      <p>Autor: {props.author} Pablo Picasso</p>
+      <p>Message: {props.message}Crie! Sonhe! Persista!</p>
+    </div>
+  )
+}
